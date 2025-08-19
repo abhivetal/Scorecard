@@ -8,23 +8,20 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
-    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main-container {
     height: 300px;
     width: 500px;
-    position: relative;
-    top: 20px;
-    left: 20px;
+    margin: 20px 0 0 20px;
     color: #EEEEEE;
     background-color: #1B244A;
+    border-radius: 8px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-radius: 8px;
 }
 
 ul {
@@ -48,11 +45,11 @@ ul {
     color: #F94F6D;
     background-color: #080001;
     font-size: 90px;
+    border-radius: 8px;
+    font-family: "Cursed Timer ULiL";
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    border-radius: 8px;
-    font-family: "Cursed Timer ULiL";
 }
 
 .addition-score-values-container {
@@ -66,7 +63,7 @@ a {
     text-decoration: none;
     color: #9AABD8;
     padding: 10px;
+    font-family: "Cursed Timer ULiL";
     display: inline-block;
     border-radius: 5px;
-    font-family: "Cursed Timer ULiL";
 }

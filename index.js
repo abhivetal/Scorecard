@@ -1,4 +1,3 @@
-
 let homeCount = 0;
 let homeEl = document.getElementById("home-el");
 
