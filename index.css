@@ -1,0 +1,72 @@
+/* cursed timer ulil font */
+@import url(https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background-color: lightgray;
+}
+
+.main-container {
+    height: 300px;
+    width: 500px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: #EEEEEE;
+    background-color: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-container-flex-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading  {
+    font-size: 40px;
+}
+
+.main-score {
+    height: 120px;
+    width: 170px;
+    color: #F94F6D;
+    background-color: #080001;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 8px;
+    font-family: "Cursed Timer ULiL";
+}
+
+.addition-score-values-container {
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+a {
+    border: 2px solid #9AABD8;
+    text-decoration: none;
+    color: #9AABD8;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: "Cursed Timer ULiL";
+}
